@@ -1,22 +1,7 @@
 {
-  "name": "summerWater/hello-world",
-  "description": "My hello composer!",
-  "homepage": "https://github.com/SummerWater/Hello-git",
-  "license": "Unlicense",
-  "keywords": [
-    "hello"
-  ],
-  "authors": [
-    {
-      "name": "summerWater"
+    "name": "SummerWater/package-name",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^5.3.3 || ^7.0"
     }
-  ],
-  "require": {
-    "php": ">=5.6"
-  },
-  "autoload": {
-    "psr-4": {
-      "Curl\\": "src/helloworld/"
-    }
-  }
 }
